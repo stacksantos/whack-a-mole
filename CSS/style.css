@@ -1,0 +1,20 @@
+h2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 606px;
+    height: 606px;
+    border: 7px solid black;
+}
+.square {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+.mole {
+    background-color: blue;
+}
