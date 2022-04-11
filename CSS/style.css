@@ -16,5 +16,6 @@ h2 {
     border: 1px solid black;
 }
 .mole {
-    background-color: blue;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fmedia-cache-ec0.pinimg.com%2F736x%2F76%2Fe6%2Fac%2F76e6acc08f7294023ea88b35b669738e.jpg&f=1&nofb=1);
+    background-size:cover;
 }
