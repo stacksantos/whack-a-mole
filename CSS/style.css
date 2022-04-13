@@ -3,35 +3,43 @@
     padding: 0;
     font-family: inherit;
 }
+body {
+    background-image: url(https://images.unsplash.com/photo-1556575157-75a0d60e4835?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
 .game-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 30px;
 }
 .score-container {
     display: flex;
     justify-content: space-around;
     width: 600px;
     padding: 14px;
-    margin-bottom: 40px;
-    margin-top: 70px;
-    border: 5px dotted black;
+    margin-bottom: 35px;
+    margin-top: 50px;
+    box-shadow: 0px 9px 9px 2px rgb(1, 22, 14);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px;
-    background-image: linear-gradient(130deg,rgb(144, 183, 255), rgb(149, 255, 232))
+    font-size: 25px;
+    background-image: linear-gradient(130deg,rgb(126, 255, 158), rgb(7, 247, 255))
 }
 #score-title {
-    text-shadow: -5px 4px 4px white;
+    color: rgb(0, 0, 0);
+    text-shadow: -5px 4px 4px rgb(0, 160, 99);
 }
 #time-title {
-    text-shadow: -5px 4px 4px white;
+    color: rgb(109, 6, 2);
+    text-shadow: -5px 4px 4px rgb(0, 160, 99);
 }
 .start-button-container {
     display: flex;
     justify-content: center;
-    padding-bottom: 10px;
-
+    padding-bottom: 30px;
 }
 
 .grid {
@@ -39,27 +47,48 @@
     flex-wrap: wrap;
     width: 606px;
     height: 606px;
-    border: 8px solid black;
+    border: 8px solid rgb(0, 0, 0);
 }
 .square {
     height: 200px;
     width: 200px;
     border: 1px solid black;
+    background-image: linear-gradient(130deg,rgb(105, 58, 52),rgb(126, 102, 74));
 }
 .mole {
     background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fmedia-cache-ec0.pinimg.com%2F736x%2F76%2Fe6%2Fac%2F76e6acc08f7294023ea88b35b669738e.jpg&f=1&nofb=1);
     background-size:cover;
 }
+
 #start-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    min-width: 20rem;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 30px;
-    border: 3px solid black;
-    border-radius: 20%;
-    width: 20rem;
-    height: 3rem;
-}
-
-
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: 2px solid #000;
+    color: #000;
+    background: transparent;
+  }
+  #start-button:hover:after {
+    top: 0;
+    left: 0;
+  }
+  #start-button:after {
+    content: "";
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 5px;
+    left: 5px;
+    transition: 0.2s;
+    background-color: #80ffc4;
+  }
