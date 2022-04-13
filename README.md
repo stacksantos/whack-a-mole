@@ -204,6 +204,13 @@ Now we want to send a message when the game is over so we can also find out what
 We'll create an *if* statement here saying that `if` the `currentTime` is equal to `0` then we want to `clearInterval(countDownTimerId);` and also `clearInterval(timerId);` and also `alert (` and whatever message you want + the `result)` at the end.
 
 ## And we have a Whack-A-Mole Game!
+
+</br>
+
+You can play it here --> [Whack-a-mole JS](https://leesvntos.github.io/whack-a-mole/)
+
+</br>
+
 ![whackamole screenshot](https://user-images.githubusercontent.com/100369086/163078579-a0e501c4-f286-4c29-bac3-810d775dd061.png)
 
 The one I'm working on along with the `code` can be found in my repository.  Feel free to suggest edits to this! And thanks for reading!!
