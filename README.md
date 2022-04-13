@@ -207,7 +207,7 @@ We'll create an *if* statement here saying that `if` the `currentTime` is equal 
 
 </br>
 
-You can play it here --> [Whack-a-mole JS](https://leesvntos.github.io/whack-a-mole/)
+You can play it here --> [Whack-a-mole JS](https://stacksantos.github.io/whack-a-mole/)
 
 </br>
 
