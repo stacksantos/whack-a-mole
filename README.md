@@ -1,6 +1,6 @@
 # Make a Whack-a-mole game with JavaScript! #
 
-I created this readme as a way for *me* to explain to *myself* the methodology in creating and using `Javascript` functions when creating apps. I am still new to this language and learn easier while *doing* instead of just **reading**.  I hope whoever reads this gains as much knowledge as I have from creating it.
+I created this readme as a way to help to explain the methodology in creating and using `Javascript` functions when creating apps.  I hope whoever reads this gains as much knowledge as I have from creating it.
 
 
  ----
